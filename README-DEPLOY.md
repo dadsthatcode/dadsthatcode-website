@@ -8,7 +8,7 @@ Static HTML/CSS site, with no build step or third-party runtime dependencies.
 3. Framework preset: **None**. Build command: **leave blank**. Build output directory: **/** (repository root; some UI versions use an empty field or `.`).
 4. Deploy and check the temporary *.pages.dev URL.
 5. In the Pages project → Custom domains → Add **dadsthatcode.com** and optionally **www.dadsthatcode.com**. Follow Cloudflare's DNS prompts. Enable redirects so only one canonical hostname is used.
-6. Verify https://dadsthatcode.com and https://dadsthatcode.com/privacy.html, including mobile layout and HTTPS.
+6. Verify https://dadsthatcode.com, https://dadsthatcode.com/cordkintv/, and https://dadsthatcode.com/privacy.html, including mobile layout and HTTPS.
 7. In Google Search Console, add domain property dadsthatcode.com and verify using the offered DNS TXT record in Cloudflare DNS. Continue the Google Play Console website verification workflow with the same Google account/property.
 
 ## Notes
@@ -17,3 +17,8 @@ Static HTML/CSS site, with no build step or third-party runtime dependencies.
 - The website privacy notice covers this website only; publish a separate policy describing actual mobile/TV app behavior before releasing CORDKIN TV.
 - The `_headers` file is consumed by Cloudflare Pages for response security headers.
 - Never commit secrets, authentication keys, or backend .env files.
+
+## CORDKIN TV launch page
+- Product URL: `https://dadsthatcode.com/cordkintv/` (source: `cordkintv/index.html`).
+- Estimated roadmap: web and compatible Google Play Android TV/phone/tablet devices on December 1, 2026; Roku on January 1, 2027; iOS and iPadOS on February 1, 2027.
+- These are targets only. Update the public dates before they become stale; do not imply app-store review or platform availability is already complete.
