@@ -13,7 +13,7 @@ Static HTML/CSS site, with no build step or third-party runtime dependencies.
 
 ## Notes
 - The site is informational; it does **not** offer IPTV subscriptions or stream content.
-- AG IPTV copy clearly marks the product as in development. Do not claim features have shipped until they have been tested and released.
-- The website privacy notice covers this website only; publish a separate policy describing actual mobile/TV app behavior before releasing AG IPTV.
+- CORDKIN TV copy clearly marks the product as coming soon and in development. Do not claim features have shipped until they have been tested and released.
+- The website privacy notice covers this website only; publish a separate policy describing actual mobile/TV app behavior before releasing CORDKIN TV.
 - The `_headers` file is consumed by Cloudflare Pages for response security headers.
 - Never commit secrets, authentication keys, or backend .env files.
